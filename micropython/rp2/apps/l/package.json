@@ -1,1 +1,1 @@
-{"urls": [[".ilib/l.app", "github:go2m/mpYos-1.25.0/micropython/rp2/l/.ilib/l.app"], [".ilib/l.sum", "github:go2m/mpYos-1.25.0/micropython/rp2/l/.ilib/l.sum"], [".ilib/remove/l/package.json", "github:go2m/mpYos-1.25.0/micropython/rp2/l/package.json"]], "version": "1.25"}
+{"urls": [[".ilib/l.app", "github:go2m/mpYos-1.25.0/micropython/rp2/apps/l/.ilib/l.app"], [".ilib/l.sum", "github:go2m/mpYos-1.25.0/micropython/rp2/apps/l/.ilib/l.sum"], [".ilib/remove/l/package.json", "github:go2m/mpYos-1.25.0/micropython/rp2/apps/l/package.json"]], "version": "1.25"}
