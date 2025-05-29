@@ -1,1 +1,1 @@
-{"urls": [["l.app", "github:go2m/apps_1.21/micropython/esp32/l/l.app"], ["remove/l/package.json", "github:go2m/apps_1.21/micropython/esp32/l/package.json"], ["l.sum", "github:go2m/apps_1.21/micropython/esp32/l/l.sum"]], "version": "1.25"}
+{"urls": [[".ilib/l.app", "github:go2m/apps_1.25/micropython/rp2/l/.ilib/l.app"], [".ilib/l.sum", "github:go2m/apps_1.25/micropython/rp2/l/.ilib/l.sum"], [".ilib/remove/l/package.json", "github:go2m/apps_1.25/micropython/rp2/l/package.json"]], "version": "1.25"}
