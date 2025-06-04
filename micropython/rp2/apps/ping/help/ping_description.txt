@@ -1,0 +1,18 @@
+
+The 'ping' command is a network utility used to test the reachability of a host on an Internet Protocol (IP) network. It works by sending Internet Control Message Protocol (ICMP) Echo Request messages to the target host and waits for an Echo Reply.
+
+Usage:
+    ping [options] destination
+
+Options:
+    -c count     : Specifies the number of echo requests to send.
+    -i interval  : Specifies the interval between sending each packet.
+    -s packetsize: Specifies the number of data bytes to be sent.
+    -t ttl       : Sets the Time To Live for the packet.
+    -v           : Verbose output.
+
+Example:
+    ping -c 4 example.com
+
+This command will send 4 ICMP Echo Request messages to example.com and display the results.
+Help
