@@ -1,0 +1,27 @@
+La commande « ping » est un utilitaire réseau permettant de tester l'accessibilité d'un hôte sur un réseau IP (Internet Protocol). Elle envoie des requêtes d'écho ICMP (Internet Control Message Protocol) à l'hôte cible et attend une réponse d'écho.
+
+Utilisation :
+ping hôte [nombre] [délai] [TTL]
+ping -v
+ping -?
+
+Options :
+-count : Spécifie le nombre de requêtes d'écho à envoyer.
+-timeout : Spécifie l'intervalle entre chaque envoi de paquet.
+-ttl : Définit la durée de vie du paquet.
+
+hôte :
+-v : Version.
+-?: Aide
+
+Exemple :
+ping google.com
+ping google.com 8
+
+Cette commande envoie 4 ou 8 requêtes d'écho ICMP à google.com et affiche les résultats.
+Aide
+
+Exemple :
+ping google.com 4 5000 300
+
+Cette commande envoie 4 requêtes d'écho ICMP à google.com et affiche les résultats après un délai de 5 000 ms et un TTL de 300.

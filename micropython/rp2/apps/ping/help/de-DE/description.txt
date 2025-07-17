@@ -1,0 +1,27 @@
+Der Befehl „ping“ ist ein Netzwerkdienstprogramm, mit dem die Erreichbarkeit eines Hosts in einem IP-Netzwerk (Internet Protocol) getestet wird. Er sendet ICMP-Echo-Request-Nachrichten (Internet Control Message Protocol) an den Zielhost und wartet auf eine Echo-Antwort.
+
+Verwendung:
+ping host [Anzahl] [Timeout] [TTL]
+ping -v
+ping -?
+
+Optionen:
+-count: Gibt die Anzahl der zu sendenden Echo-Requests an.
+-timeout: Gibt das Intervall zwischen den einzelnen Paketen an.
+-ttl: Legt die Time-to-Live-Zeit für das Paket fest.
+
+host:
+-v: Version.
+-?: Diese Hilfe
+
+Beispiel:
+ping google.com
+ping google.com 8
+
+Dieser Befehl sendet 4 oder 8 ICMP-Echo-Request-Nachrichten an google.com und zeigt die Ergebnisse an.
+Hilfe
+
+Beispiel:
+ping google.com 4 5000 300
+
+Dieser Befehl sendet vier ICMP-Echo-Request-Nachrichten an google.com. Die Ergebnisse werden mit einem Timeout von 5000 ms und einer TTL von 300 ms angezeigt.
