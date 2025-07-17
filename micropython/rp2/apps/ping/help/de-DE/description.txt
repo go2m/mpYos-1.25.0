@@ -6,13 +6,17 @@ ping -v
 ping -?
 
 Optionen:
--count: Gibt die Anzahl der zu sendenden Echo-Requests an.
--timeout: Gibt das Intervall zwischen den einzelnen Paketen an.
--ttl: Legt die Time-to-Live-Zeit für das Paket fest.
+-Anzahl: Gibt die Anzahl der zu sendenden Echo-Requests an.
+-Timeout: Gibt das Intervall zwischen den Paketsendungen an.
+-TTL: Legt die Time-to-Live-Zeit für das Paket fest.
 
 host:
 -v: Version.
--?: Diese Hilfe
+-? oder -h: Hilfe in Standardsprache.
+
+Nur die Hilfedateien in einer anderen Sprache, z. B.:
+-h fr-FR: Hilfe auf Französisch.
+-h zh-CN: Hilfe auf Chinesisch.
 
 Beispiel:
 ping google.com

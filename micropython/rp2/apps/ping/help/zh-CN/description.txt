@@ -1,27 +1,31 @@
 “ping”命令是一个网络实用程序，用于测试互联网协议 (IP) 网络上主机的可达性。它的工作原理是向目标主机发送互联网控制消息协议 (ICMP) 回显请求消息，并等待回显回复。
 
 用法：
-ping host [count] [timeout] [TTL]
+ping host [count] [timeout] [ttl]
 ping -v
 ping -?
 
 选项：
--count：指定要发送的回显请求数量。
+-count. ：指定要发送的回显请求数量。
 -timeout：指定发送每个数据包的间隔。
--ttl：设置数据包的生存时间。
+-ttl.   ：设置数据包的生存时间。
 
 host：
 -v：版本。
--?：此帮助
+-?或 -h：标准语言帮助
+
+仅显示其他语言的帮助文件，例如：
+-h fr-FR：法语帮助
+-h zh-CN：中文帮助
 
 示例：
 ping google.com
 ping google.com 8
 
-此命令将向 google.com 发送 4 或 8 条 ICMP 回显请求消息并显示结果。
+此命令将向 google.com 发送 4 或 8 条 ICMP Echo 请求消息并显示结果。
 帮助
 
 示例：
 ping google.com 4 5000 300
 
-此命令将向 google.com 发送 4 条 ICMP Echo 请求消息，超时时间为 5000 毫秒，TTL 为 300，并显示结果。
+此命令将向 google.com 发送 4 条 ICMP Echo 请求消息，超时时间为 5000 毫秒，TTL 为 300，显示结果。

@@ -2,7 +2,7 @@
 The 'ping' command is a network utility used to test the reachability of a host on an Internet Protocol (IP) network. It works by sending Internet Control Message Protocol (ICMP) Echo Request messages to the target host and waits for an Echo Reply.
 
 Usage:
-    ping host [count] [timeout] [TTL]
+    ping host [count] [timeout] [ttl]
     ping -v
     ping -?
 
@@ -12,8 +12,13 @@ Options:
     -ttl       : Sets the Time To Live for the packet.
 
 host:
-    -v         : Version.
-    -?         : this Help
+    -v       : Version. 
+    -? or -h : Help in standard language
+
+    only the help files in another language for example:
+    -h fr-FR : Help in French
+    -h zh-CN : Help in Chinese
+
 
 Example:
     ping google.com
